@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+section {
+  position: relative;
+  margin: auto;
+  border: 1px solid gray;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  height: 150px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+#Punkty_gracza {
+  float: left;
+  padding-left: 10em;
+}
+
+#Punkty_komputera {
+  float: right;
+  padding-right: 10em;
+}
+
+#wiadomosc {
+  clear: both;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.przyciski {
+  position: absolute;
+  bottom: 0;
+  left: 21%;
+  width: 50%;
+  clear: both;
+  margin-bottom: 5px;
+}
+
+.przycisk {
+  border-radius: 5px;
+  background-color: #b3b3b3;
+  color: #fff;
+  padding: 5px;
+  margin-left: 15%;
+}
